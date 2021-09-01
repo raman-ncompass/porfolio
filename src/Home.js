@@ -51,9 +51,9 @@ function Home() {
 				</div>
 			</div>  */}
 
-			<div className="container-fluid banner-info" >
+			<div className="container  banner-info" >
 				<div className="row">
-					<div className=" col-sm-6 col-lg-6 text-white pop5">
+					<div className=" p-5 mx-auto col-sm-6 col-lg-6 text-white pop5">
 						<h1 align="left" className="dialog">Hi !</h1>
 						<h6 align="left">APP & WEB DEVELOPER</h6>
 						<hr className="bg-white" />
@@ -93,9 +93,9 @@ function Home() {
 
 					</div>
 
-					<div className=" col-sm-6 col-lg-6 pop3">
+					<div className="p-5 col-sm-6 col-lg-6 pop3">
 						<p>
-							<img width="320" className="img-fluid p-4" src={profile}  />
+							<img width="320" className="img-fluid " src={profile}  />
 						</p>
 
 

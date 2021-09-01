@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope,faPhone,faHome } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope,faPhone,faHome, faMagic} from '@fortawesome/free-solid-svg-icons'
 import Navbar2 from './Navbar';
 
 function Contact() {
@@ -66,8 +66,8 @@ function Contact() {
 		<div class="copy_right text-center">
 			<p>&copy; 2021 RmNWrLd . All rights reserved | Design by <a href="" target="_blank">RMN WRLD.</a></p>
 			 <ul class="social-icons two">
-							<li><a href="#"> </a></li>
-							<li><a href="https://www.facebook.com/rewati.raman.545/" class="fb"> </a></li>
+							{/* <li><a href="#"> </a></li> */}
+							<li><a href="https://www.facebook.com/rewati.raman.545/" > <FontAwesomeIcon icon={faMagic} size="2x" color="#00a78e" /></a></li>
 							<li><a href="https://www.linkedin.com/in/ramanprasad0203/" class="in"> </a></li>
 							<li><a href="https://github.com/rewatiramanprasad" class="github"> </a></li>
 						</ul>
